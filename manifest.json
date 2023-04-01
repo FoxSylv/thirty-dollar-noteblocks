@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Thirty Dollar Noteblocks",
+    "version": "1.0",
+    "description": "Replaces the sounds from thirtydollar.website with only noteblocks",
+    "homepage_url": "https://github.com/FoxSylv/thirty-dollar-noteblocks",
+    "icons": {
+        "48": "icons/30noteblock.png"
+    },
+    "browser_action": {
+        "default_title": "Thirty Dollar Noteblocks"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+          "matches": ["*://thirtydollar.website/"],
+          "js": ["main.js"]
+        }
+    ]
+}
+
