@@ -21,5 +21,11 @@
     {"id":"witherskeleton", "name":"Wither Skeleton", "source":"Minecraft", "tags":["percussion"]},
     {"id":"creeper", "name":"Creeper", "source":"Minecraft", "tags":["percussion"]},
     {"id":"piglin", "name":"Piglin", "source":"Minecraft", "tags":["percussion"]},
-    {"id":"enderdragon", "name":"Ender Dragon", "source":"Minecraft", "tags":["percussion"]}
+    {"id":"enderdragon", "name":"Ender Dragon", "source":"Minecraft", "tags":["percussion"]},
+    {"id":"dispenser", "name":"Dispenser", "source":"Minecraft", "tags":["percussion"]},
+    {"id":"trapdoor", "name":"Trapdoor", "source":"Minecraft", "tags":["percussion"]},
+    {"id":"irontrapdoor", "name":"Iron Trapdoor", "source":"Minecraft", "tags":["percussion"]},
+    {"id":"door", "name":"Door", "source":"Minecraft", "tags":["percussion"]},
+    {"id":"irondoor", "name":"Iron Door", "source":"Minecraft", "tags":["percussion"]},
+    {"id":"fencegate", "name":"Gate", "source":"Minecraft", "tags":["percussion"]}
 ]
