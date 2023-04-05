@@ -1,0 +1,14 @@
+[ 
+    {"id":"noteblock_harp", "name":"Note Block - Harp", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_bass", "name":"Note Block - Bass", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_snare", "name":"Note Block - Snare", "source":"Minecraft", "tags":["percussion"]},
+    {"id":"noteblock_click", "name":"Note Block - Hat", "source":"Minecraft", "tags":["percussion"]},
+    {"id":"noteblock_bell", "name":"Note Block - Bell", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_banjo", "name":"Note Block - Banjo", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_bit", "name":"Note Block - Bit", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_chime", "name":"Note Block - Chime", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_xylophone", "name":"Note Block - Xylophone", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_guitar", "name":"Note Block - Guitar", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_flute", "name":"Note Block - Flute", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_pling", "name":"Note Block - Pling", "source":"Minecraft", "tags":["note"]}
+]

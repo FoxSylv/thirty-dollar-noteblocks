@@ -13,17 +13,17 @@ function setIcon(icon) {
 browser.browserAction.onClicked.addListener(() => {
     browser.storage.local.get("isEnabled", (values) => {
         var isEnabled = values.isEnabled;
-        console.log(isEnabled);
         if (isEnabled === undefined) {
             isEnabled = true;
         }
-        console.log(isEnabled);
 
         if (isEnabled) {
             setIcon(DISABLED_ICON);
+            console.log("Extension disabled");
         }
         else {
             setIcon(ENABLED_ICON);
+            console.log("Extension enabled");
         }
         browser.storage.local.set({"isEnabled": !isEnabled});
         browser.tabs.reload();
