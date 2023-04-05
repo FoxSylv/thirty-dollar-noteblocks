@@ -1,5 +1,5 @@
-const ENABLED_ICON = "icons/enabled.png";
-const DISABLED_ICON = "icons/disabled.png";
+const ENABLED_ICON = "data/images/enabled.png";
+const DISABLED_ICON = "data/images/disabled.png";
 
 
 function setIcon(icon) {

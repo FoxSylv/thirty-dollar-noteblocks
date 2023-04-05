@@ -1,14 +1,19 @@
-[ 
+[
+    {"id":"_pause", "name":"Silence", "source":"", "tags":["note", "percussion"]},
     {"id":"noteblock_harp", "name":"Note Block - Harp", "source":"Minecraft", "tags":["note"]},
-    {"id":"noteblock_bass", "name":"Note Block - Bass", "source":"Minecraft", "tags":["note"]},
-    {"id":"noteblock_snare", "name":"Note Block - Snare", "source":"Minecraft", "tags":["percussion"]},
-    {"id":"noteblock_click", "name":"Note Block - Hat", "source":"Minecraft", "tags":["percussion"]},
-    {"id":"noteblock_bell", "name":"Note Block - Bell", "source":"Minecraft", "tags":["note"]},
     {"id":"noteblock_banjo", "name":"Note Block - Banjo", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_bass", "name":"Note Block - Bass", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_bell", "name":"Note Block - Bell", "source":"Minecraft", "tags":["note"]},
     {"id":"noteblock_bit", "name":"Note Block - Bit", "source":"Minecraft", "tags":["note"]},
     {"id":"noteblock_chime", "name":"Note Block - Chime", "source":"Minecraft", "tags":["note"]},
-    {"id":"noteblock_xylophone", "name":"Note Block - Xylophone", "source":"Minecraft", "tags":["note"]},
-    {"id":"noteblock_guitar", "name":"Note Block - Guitar", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_cowbell", "name":"Note Block - Cowbell", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_didgeridoo", "name":"Note Block - Didgeridoo", "source":"Minecraft", "tags":["note"]},
     {"id":"noteblock_flute", "name":"Note Block - Flute", "source":"Minecraft", "tags":["note"]},
-    {"id":"noteblock_pling", "name":"Note Block - Pling", "source":"Minecraft", "tags":["note"]}
+    {"id":"noteblock_guitar", "name":"Note Block - Guitar", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_ironxylophone", "name":"Note Block - Vibraphone", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_pling", "name":"Note Block - Pling", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_xylophone", "name":"Note Block - Xylophone", "source":"Minecraft", "tags":["note"]},
+    {"id":"noteblock_snare", "name":"Note Block - Snare", "source":"Minecraft", "tags":["percussion"]},
+    {"id":"noteblock_click", "name":"Note Block - Hat", "source":"Minecraft", "tags":["percussion"]},
+    {"id":"noteblock_bassdrum", "name":"Note Block - Bass Drum", "source":"Minecraft", "tags":["percussion"]}
 ]
