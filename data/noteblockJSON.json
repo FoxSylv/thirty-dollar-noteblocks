@@ -17,7 +17,7 @@
     {"id":"noteblock_click", "name":"Note Block - Hat", "source":"Minecraft", "tags":["percussion"]},
     {"id":"noteblock_bassdrum", "name":"Note Block - Bass Drum", "source":"Minecraft", "tags":["percussion"]},
     {"id":"zombie", "name":"Zombie", "source":"Minecraft", "tags":["percussion"]},
-    {"id":"skeleton", "name":"Skeleton", "source":"Minecraft", "tags":["percussion"]},
+    {"id":"skeleton2", "name":"Skeleton", "source":"Minecraft", "tags":["percussion"]},
     {"id":"witherskeleton", "name":"Wither Skeleton", "source":"Minecraft", "tags":["percussion"]},
     {"id":"creeper", "name":"Creeper", "source":"Minecraft", "tags":["percussion"]},
     {"id":"piglin", "name":"Piglin", "source":"Minecraft", "tags":["percussion"]},
