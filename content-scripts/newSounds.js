@@ -1,5 +1,5 @@
 browser.storage.local.get("isEnabled", (values) => {
-    if (values.isEnabled) {
+    if (values.isEnabled || values.isEnabled === undefined) {
         //Remove error from the normal sounds not loading
         const errorBox = document.getElementById("iconboxLoading");
         errorBox.style = "display: none";

@@ -1,5 +1,5 @@
 browser.storage.local.get("isEnabled", (values) => {
-    if (values.isEnabled) {
+    if (values.isEnabled || values.isEnabled === undefined) {
         //Favicon
         const link = document.querySelector("link[rel*='icon']");
         link.href = browser.runtime.getURL("data/images/enabled.png");
