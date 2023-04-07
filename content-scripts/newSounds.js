@@ -24,6 +24,10 @@ browser.storage.local.get("isEnabled", (values) => {
 
                 icons.append(newIcon);
             });
-        });
+
+            //Fix loading
+            const loadButton = document.getElementById("loadBtn");
+            loadButton.setAttribute("onclick", `soundList = JSON.parse('${JSON.stringify(list)}'); $('#loadFile').click()`);
+        }); //end fetch()
     } //end if(values.isEnabled)
 }); //end browser.storage.local.get()
