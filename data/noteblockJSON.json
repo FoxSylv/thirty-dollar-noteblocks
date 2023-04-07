@@ -27,5 +27,6 @@
     {"id":"irontrapdoor", "name":"Iron Trapdoor", "source":"Minecraft", "tags":["percussion"]},
     {"id":"door", "name":"Door", "source":"Minecraft", "tags":["percussion"]},
     {"id":"irondoor", "name":"Iron Door", "source":"Minecraft", "tags":["percussion"]},
-    {"id":"fencegate", "name":"Gate", "source":"Minecraft", "tags":["percussion"]}
+    {"id":"fencegate", "name":"Gate", "source":"Minecraft", "tags":["percussion"]},
+    {"id":"mc_bell", "name":"Bell", "source":"Minecraft", "tags":["percussion"]}
 ]
