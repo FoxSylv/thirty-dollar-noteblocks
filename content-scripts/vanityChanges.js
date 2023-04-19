@@ -26,5 +26,14 @@ browser.storage.local.get("isEnabled", (values) => {
 
         //Remove reference to "my" silly projects (to remove ambiguity)
         credits.previousElementSibling.remove();
+
+        //Change social links to search for thirty dollar noteblocks
+        const linkHeader = document.getElementsByClassName("socialLinks")[0];
+        linkHeader.innerHTML = linkHeader.innerHTML.replace("website", "noteblocks");
+        const socialLinks = document.getElementsByClassName("socialTag");
+        for (var s = 0; s < socialLinks.length; ++s) {
+            var newLink = socialLinks[s].firstChild.getAttribute("href").replace("website", "noteblocks");
+            socialLinks[s].firstChild.setAttribute("href", newLink);
+        }
     } //end if(values.isEnabled)
 }); //end browser.storage.local.get()
